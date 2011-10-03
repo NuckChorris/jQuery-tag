@@ -7,6 +7,7 @@ Autocompletion
 The `autocomplete` option takes an object with functions `init` and `lookup`
 
 _Example for Socket.IO_
+
 	var socketio = {
 		io: null,
 		lookup: function (str, cb) {
