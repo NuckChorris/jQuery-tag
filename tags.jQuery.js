@@ -12,7 +12,7 @@
 				}
 			});
 		},
-		initialize: function () {
+		init: function () {
 			this.io = io.connect('/tags');
 		}
 	};
@@ -33,7 +33,7 @@
 			}
 
 			if (options.autocomplete) {
-				options.autocomplete.initialize();
+				options.autocomplete.init();
 			}
 
 			// Wrap input

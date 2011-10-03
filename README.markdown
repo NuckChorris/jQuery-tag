@@ -22,7 +22,7 @@ Example for Socket.IO
 				}
 			});
 		},
-		initialize: function () {
+		init: function () {
 			this.io = io.connect('/tags');
 		}
 	};
