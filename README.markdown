@@ -1,6 +1,8 @@
-NOTE: This script is _not done_ yet.
-====================================
-Use it at your own risk.
+NOTE: This script is _mostly_ done.
+===================================
+However, it's likely a tad rough around the edges.
+
+Also, it has no CSS; I'll leave that bit to you.
 
 Autocompletion
 ==============
@@ -27,3 +29,12 @@ Example for Socket.IO
 		}
 	};
 
+Styling
+=======
+
+`div.tag-input` &mdash; Container element 
+`ul.tags` &mdash; List of added tags 
+`ul.autocomplete-list` &mdash; Autocomplete results list 
+`ul.autocomplete-list > li` &mdash; Autocomplete results entry 
+`ul.tags > li > span.tag-name` &mdash; Name on an added tag 
+`ul.tags > li > span.remove-button` &mdash; "Remove Tag" Button on an added tag 
