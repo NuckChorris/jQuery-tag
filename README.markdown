@@ -32,12 +32,12 @@ Example for Socket.IO
 Styling
 =======
 
-`div.tag-input` &mdash; Container element 
-`ul.tags` &mdash; List of added tags 
-`ul.autocomplete-list` &mdash; Autocomplete results list 
-`ul.autocomplete-list > li` &mdash; Autocomplete results entry 
-`ul.tags > li > span.tag-name` &mdash; Name on an added tag 
-`ul.tags > li > span.remove-button` &mdash; "Remove Tag" Button on an added tag 
+`div.tag-input` &mdash; Container element  
+`ul.tags` &mdash; List of added tags  
+`ul.autocomplete-list` &mdash; Autocomplete results list  
+`ul.autocomplete-list > li` &mdash; Autocomplete results entry  
+`ul.tags > li > span.tag-name` &mdash; Name on an added tag  
+`ul.tags > li > span.remove-button` &mdash; "Remove Tag" Button on an added tag  
 
 Planned Features
 ================
