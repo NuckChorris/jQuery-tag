@@ -38,3 +38,12 @@ Styling
 `ul.autocomplete-list > li` &mdash; Autocomplete results entry 
 `ul.tags > li > span.tag-name` &mdash; Name on an added tag 
 `ul.tags > li > span.remove-button` &mdash; "Remove Tag" Button on an added tag 
+
+Planned Features
+================
+
+* Ctrl+click to select multiple tags in either list (with buttons appearing to remove/add)
+* Shift+click to add a tag without clearing the autocomplete
+* Better value handling (not just `Array.join`, preferably something that escapes values)
+* Keyboard-navigable autocompletion list
+* Tab to insert first autocomplete result
